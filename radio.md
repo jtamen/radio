@@ -7,15 +7,6 @@ basic.forever(function () {
         led.plot(0, 0)
         led.plotBrightness(0, 0, 255)
         radio.sendNumber(0)
-```ghost
-basic.forever(function () {
-    for (let index = 0; index < 0 + 0; index++) {
-        let test = 0
-        music.playMelody("- - - - - - - - ", test)
-        led.plot(0, 0)
-        led.plotBrightness(0, 0, 255)
-    }
-})
 ```
 
 ## @showdialog
