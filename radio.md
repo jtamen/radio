@@ -7,6 +7,7 @@ basic.forever(function () {
         led.plot(0, 0)
         led.plotBrightness(0, 0, 255)
         radio.sendNumber(0)
+        radio.setGroup(1)
 ```
 
 ## @showdialog
